@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="nl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="./css/style.css">
+        <title>Eindopdracht</title>
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="./images/Rareware_(1994-2003).webp" alt="Logo van rareware">
+            </div>
+            <ul class="nav-links">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./index.html">Info</a></li>
+                <li><a href="#product">Producten</a></li>
+                <li><a href="#footer">Socials</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+            <header>
+                <div class="description">
+                    <h1>Contact</h1>
+                    <p>Vul hier het Contactformulier in.</p>
+                </div>
+            </header>
+            <div class="container">
+            <main>
+                <form class="contact-form">
+                    <h2>Form</h2>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="first-name">Voornaam</label>
+                            <input type="text" id="first-name" name="first-name" placeholder="Voornaam" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="last-name">Achternaam</label>
+                            <input type="text" id="last-name" name="last-name" placeholder="Achternaam" required>
+                        </div>
+                    </div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Email" required>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="city">Woonplaats</label>
+                            <input type="text" id="city" name="city" placeholder="Woonplaats" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="dob">Geboortedatum</label>
+                            <input type="date" id="dob" name="dob" required>
+                        </div>
+                    </div>
+        
+                    <label for="subject">Onderwerp</label>
+                    <select id="subject" name="subject" required>
+                        <option value="">Kies onderwerp van het bericht...</option>
+                        <option value="vraag">Vraag</option>
+                        <option value="opmerking">Opmerking</option>
+                        <option value="klacht">Klacht</option>
+                    </select>
+        
+                    <label for="message">Bericht</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Uw bericht..." required></textarea>
+        
+                    <p>Inschrijven voor nieuwsbrief?</p>
+                    <div class="radio-group">
+                        <input type="radio" id="newsletter-yes" name="newsletter" value="ja">
+                        <label for="newsletter-yes">Ja</label>
+                        <input type="radio" id="newsletter-no" name="newsletter" value="nee" checked>
+                        <label for="newsletter-no">Nee</label>
+                    </div>
+        
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="terms" name="terms" required>
+                        <label for="terms">Ik ga akkoord met de algemene voorwaarden</label>
+                    </div>
+        
+                    <button type="submit" class="button">Verzenden</button>
+                </form>
+        </main>
+        </div>
+        <footer class="footer" id="footer">
+            <div class="footer-left">
+                <div class="logo">
+                    <img src="./images/Rareware_(1994-2003).webp" alt="Logo">
+                </div>
+                <p>Copyright &copy; Jordi</p>
+                <div class="social-icons">
+                    <a href="#"><img src="./images/Instagram_icon.png.webp" alt="Instagram"></a>
+                    <a href="#"><img src="./images/facebook-logo.png" alt="Facebook"></a>
+                    <a href="#"><img src="./images/snapchat-icon-free-png.webp" alt="Snapchat"></a>
+                </div>
+            </div>
+            <div class="footer-right">
+                <ul class="footer-links">
+                    <li><a href="#">Privacyverklaring</a></li>
+                    <li><a href="#">Algemene voorwaarden</a></li>
+                    <li><a href="#">Cookiebeleid</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </footer>
+    </body>
+</html>
